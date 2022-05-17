@@ -5,10 +5,18 @@ header {
     left: 321px;
     top: 0px;
     background: #F6F6F6;
+    font-family: 'Poppins';
     display: flex;
 
+    div {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 100%;
+    }
     a {
-        font-family: 'Poppins';
+        
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -17,7 +25,8 @@ header {
         letter-spacing: 6.33143px;
 
         color: #000000;
-        margin-right: 66px;
+        margin-right: 22px;
+        margin-left: 22px;
         text-decoration: none;
 
     }
