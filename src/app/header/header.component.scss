@@ -1,3 +1,5 @@
+$accent-color:rgb(254, 227, 131);
+
 nav {
     position: absolute;
     top: 0;
@@ -8,42 +10,65 @@ nav {
     width: 100%;
 
     a {
-
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        text-align: right;
-        letter-spacing: 4.33143px;
-
-        color: #000000;
         margin-right: 22px;
         margin-left: 22px;
-        text-decoration: none;
-
     }
 }
 
 main {
+    display: flex;
     margin-top: 100px;
-    width: 100vh;
 
+    section {
+        width: 50%;
+    }
 
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 120px;
+    }
+
+    a{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+}
+a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #000000;
+}
+.left-section {
+    margin-left: 140px;
 }
 
 .right-section {
-    width: 50%;
+    margin-right: 140px;
     display: flex;
-
+    object-fit: cover;
 
 
     img {
-        position: absolute;
-        width: 561px;
-        height: 409.74px;
-        left: 203px;
-        top: 137px;
-        object-fit: cover;
+        width: 542px;
+        height: 345px;
 
     }
+}
+button{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 8px;
+    padding: 24px;
+    background-color: $accent-color;
+    border: none;
+   
+   // opacity: 0.6;
 }
