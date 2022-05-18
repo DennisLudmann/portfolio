@@ -1,4 +1,4 @@
-$accent-color:rgb(254, 227, 131);
+$accent-color: rgb(254, 227, 131);
 
 nav {
     position: absolute;
@@ -8,14 +8,24 @@ nav {
     align-items: center;
     height: 100px;
     width: 100%;
+    z-index: 2;
 
     a {
         margin-right: 22px;
         margin-left: 22px;
     }
 }
-
+.gray-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 76%;
+    background-color: rgb(246,246,246);
+    z-index: 0;
+}
 section {
+    z-index: 4;
     display: flex;
     margin-top: 100px;
 
@@ -25,12 +35,13 @@ section {
         line-height: 120px;
     }
 
-    a{
+    a {
         margin-right: 10px;
         margin-left: 10px;
     }
 
 }
+
 a {
     font-style: normal;
     font-weight: 500;
@@ -41,31 +52,34 @@ a {
     text-decoration: none;
     color: #000000;
 }
+
 .left-element {
     margin-left: 140px;
     width: 50%;
-    div{
-               margin-bottom:45px;
+    z-index: 2;
+    div {
+        margin-bottom: 45px;
     }
-    
-    .button{
 
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 36px;
-            letter-spacing: 8px;
-            padding: 24px;
-            margin-top: 24px;
-            background-color: $accent-color;
-            border: none;
-            cursor: pointer;
-           
-           // opacity: 0.6;
-        
+    .button {
+
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 8px;
+        padding: 24px;
+        margin-top: 24px;
+        background-color: $accent-color;
+        border: none;
+        cursor: pointer;
+
+        //opacity: 0.6;
+
     }
 }
 
 .right-element {
+    z-index: 2;
     width: 50%;
     margin-right: 140px;
     display: flex;
