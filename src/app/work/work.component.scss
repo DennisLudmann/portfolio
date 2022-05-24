@@ -16,8 +16,8 @@ h2 {
 
 h4 {
     font-weight: 500;
-    font-size: 30px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 2px;
     letter-spacing: 0.642857px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -38,6 +38,8 @@ p {
 
 .container {
     display: flex;
+    margin-bottom: 40px;
+    margin-top: 20px;
 
     div {}
 }
@@ -54,7 +56,7 @@ a {
     font-weight: 500;
     font-size: 12px;
     line-height: 33px;
-    padding: 4px;
+    padding: 6px 10px 6px 10px;
     border-radius: 10px;
     background-color: $accent-color;
     color: #6D6D6D;
