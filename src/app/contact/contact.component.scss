@@ -1,0 +1,21 @@
+$accent-color: rgb(254, 227, 131);
+section{
+  background-color: $accent-color;
+ 
+  .container{
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    }
+  
+}
+.input{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 10px;
+  }
+  .left-wrapper{
+    width: 50%;
+  }
