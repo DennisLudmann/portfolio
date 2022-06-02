@@ -1,9 +1,10 @@
 $accent-color: rgb(254, 227, 131);
 
-section{
+section {
     margin-left: 140px;
     margin-right: 140px;
 }
+
 h2 {
     font-weight: 700;
     font-size: 50px;
@@ -11,17 +12,21 @@ h2 {
     margin-top: 100px;
     margin-bottom: 0px;
 }
-img{
-    width: 542px;
-    height: 345px;
-    object-fit: cover;
+
+img {
+    width: 100%;
 }
-.info-box{
-   padding: 16px;
+
+.info-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 16px;
     width: 342px;
     height: 245px;
     background-color: $accent-color;
 }
+
 h4 {
     font-family: 'Poppins';
     font-style: normal;
@@ -33,3 +38,7 @@ h4 {
     color: #6D6D6D;
 }
 
+.wrapper {
+    position: relative;
+
+}
