@@ -3,6 +3,7 @@ $small: 12px;
 $medium: 16px;
 $large: 24px;
 $extralarge: 80px;
+$margin: 140px;
 
 section {
   background-color: $accent-color;
@@ -10,10 +11,9 @@ section {
   padding-bottom: $extralarge;
 
   .container {
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: $margin;
+    margin-right: $margin;
     display: flex;
-    
 
     p {
       font-weight: 400;
@@ -29,14 +29,34 @@ section {
   flex-direction: column;
   position: relative;
   padding-top: $small;
+  font-size: $small;
+  outline: none;
 }
 
 .left-wrapper {
   width: 50%;
 }
-.right-wrapper *{
-  padding-top: $small;
+
+input {
+ margin-bottom: $medium;
+ border: none;
+ outline: none;
 }
-textarea{
+
+textarea {
   height: $extralarge;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $medium;
+  background: #0F0F10;
+  padding: 24px 33px;
+  color: white;
+  font-size: $medium;
 }
