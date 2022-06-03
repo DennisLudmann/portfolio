@@ -1,21 +1,42 @@
 $accent-color: rgb(254, 227, 131);
-section{
+$small: 12px;
+$medium: 16px;
+$large: 24px;
+$extralarge: 80px;
+
+section {
   background-color: $accent-color;
- 
-  .container{
+  padding-top: $extralarge;
+  padding-bottom: $extralarge;
+
+  .container {
     margin-left: 140px;
     margin-right: 140px;
     display: flex;
+    
+
+    p {
+      font-weight: 400;
+      font-size: $medium;
     }
-  
+  }
+
 }
-.input{
-    width: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding-top: 10px;
-  }
-  .left-wrapper{
-    width: 50%;
-  }
+
+.input {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: $small;
+}
+
+.left-wrapper {
+  width: 50%;
+}
+.right-wrapper *{
+  padding-top: $small;
+}
+textarea{
+  height: $extralarge;
+}
