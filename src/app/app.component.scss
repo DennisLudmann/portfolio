@@ -2,7 +2,12 @@ $accent-color: rgb(254, 227, 131);
 $background-color: rgb(246,246,246);
 $font-color: rgb(109, 109, 109);
 $small: 12px;
-$medium: 16px;
+$medium: 18px;
 $large: 24px;
+$larger: 40px;
 $extralarge: 80px;
 $margin: 140px;
+
+html{
+    scroll-behavior: smooth;
+}

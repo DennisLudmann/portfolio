@@ -1,0 +1,18 @@
+@import "../app.component.scss";
+
+footer{
+    padding-top: $extralarge;
+    padding-bottom: $larger;
+    margin-right: $margin;
+    margin-left: $margin;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: $medium;
+    
+    a{
+     color:$font-color;
+     font-size: $medium;
+    }
+}
