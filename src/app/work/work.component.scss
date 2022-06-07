@@ -2,9 +2,9 @@
 
 
 section {
-    margin-top: 80px;
-    margin-right: 140px;
-    margin-left: 140px;
+    margin-top: $extralarge;
+    margin-right: $margin;
+    margin-left: $margin;
 }
 
 h2 {
@@ -22,7 +22,7 @@ h4 {
     letter-spacing: 0.642857px;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #6D6D6D;
+    color: $font-color;
 
 }
 
@@ -34,7 +34,7 @@ p {
     line-height: 25px;
     margin: 0;
     letter-spacing: 0.2px;
-    color: #6D6D6D;
+    color: $font-color;
 }
 
 .container {
@@ -59,7 +59,7 @@ a {
     padding: 6px 10px 6px 10px;
     border-radius: 10px;
     background-color: $accent-color;
-    color: #6D6D6D;
+    color: $font-color;
     margin-right: 30px;
     text-decoration: none;
 }
