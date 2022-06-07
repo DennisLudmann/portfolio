@@ -1,9 +1,5 @@
-$accent-color: rgb(254, 227, 131);
-$small: 12px;
-$medium: 16px;
-$large: 24px;
-$extralarge: 80px;
-$margin: 140px;
+@import "../app.component.scss";
+
 
 section {
   background-color: $accent-color;

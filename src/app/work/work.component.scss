@@ -1,4 +1,5 @@
-$accent-color: rgb(254, 227, 131);
+@import "../app.component.scss";
+
 
 section {
     margin-top: 80px;
@@ -41,7 +42,6 @@ p {
     margin-bottom: 40px;
     margin-top: 20px;
 
-    div {}
 }
 
 .left-wrapper {
