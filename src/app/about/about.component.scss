@@ -1,8 +1,9 @@
 @import "../app.component.scss";
 
 section {
-    margin-left: $margin;
     margin-right: $margin;
+    margin-bottom: $margin;
+    margin-left: $margin;
 }
 
 h2 {
@@ -19,12 +20,19 @@ img {
 
 .info-box {
     position: absolute;
-    bottom: 20px;
+    top:390px;
     right: 20px;
     padding: 16px;
     width: 342px;
     height: 245px;
     background-color: $accent-color;
+}
+
+.spacer {
+    width: 375px;
+    height: 100px;
+    padding: 16px;
+    float: right;
 }
 
 h4 {
@@ -40,5 +48,10 @@ h4 {
 
 .wrapper {
     position: relative;
-
+}
+p{
+    margin-top: $medium;
+    font-size: $medium;
+    color: $font-color;
+    font-weight: 400;
 }
