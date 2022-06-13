@@ -15,24 +15,18 @@ h2 {
 }
 
 img {
-    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 375px;
 }
 
 .info-box {
-    position: absolute;
-    top:390px;
-    right: 20px;
-    padding: 16px;
+    margin-right: $margin;
+    padding: 16px 32px;
     width: 342px;
     height: 245px;
-    background-color: $accent-color;
-}
-
-.spacer {
-    width: 375px;
-    height: 100px;
-    padding: 16px;
-    float: right;
+    background-color: #fee383;
+    transform: translateY(-140px)
 }
 
 h4 {
@@ -49,9 +43,12 @@ h4 {
 .wrapper {
     position: relative;
 }
-p{
-    margin-top: $medium;
+
+p {
+    margin-bottom: $medium;
     font-size: $medium;
-    color: $font-color;
     font-weight: 400;
+}
+.container{
+    display: flex;
 }
