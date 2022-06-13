@@ -22,10 +22,10 @@ img {
 
 .info-box {
   margin-right: $margin;
-  padding: 16px 32px;
+  padding: $large $larger;
   width: 342px;
   background-color: #fee383;
-  transform: translateY(-140px)
+  transform: translateY(-135px);
 }
 
 h4 {
