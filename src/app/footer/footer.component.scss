@@ -16,3 +16,11 @@ footer{
      font-size: $medium;
     }
 }
+.wrapper-link{
+    cursor: pointer;
+    border-bottom: solid 1px white;
+    
+    &:hover {
+        border-bottom: solid 1px $font-color;
+      }
+}
