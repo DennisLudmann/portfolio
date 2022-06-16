@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LegalComponent } from './legal/legal.component';
 import { HeroComponent } from './hero/hero.component';
 import { MainComponent } from './main/main.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MainComponent } from './main/main.component';
     FooterComponent,
     LegalComponent,
     HeroComponent,
-    MainComponent
+    MainComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
