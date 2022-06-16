@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { LegalComponent } from './legal/legal.component';
 import { HeroComponent } from './hero/hero.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HeroComponent } from './hero/hero.component';
     ContactComponent,
     FooterComponent,
     LegalComponent,
-    HeroComponent
+    HeroComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
