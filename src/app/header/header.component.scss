@@ -18,8 +18,9 @@ nav {
     height: 50px;
     cursor: pointer;
     transition: all 0.3s ease-in-out 0s;
-    
-    &:hover { cursor: default; transform: rotate(360deg); 
+
+    &:hover { 
+      transform: rotate(360deg); 
       transition: all 0.3s ease-in-out 0s; }
   }
 
